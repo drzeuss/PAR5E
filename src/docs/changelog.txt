@@ -1,0 +1,43 @@
+PAR5E Changelog
+------------------
+
+v0.0.6-b1
+CoreRPG imagepins: Fixed a bug with class and recordname references linking to incorrect database nodes
+Engine: Added new Archive feature enabling ruleset libraries to offer persistent storage of data items between parser runs (see User guide for more information). 
+GUI: Added new Tab for Archive configuration, data display and data manipuation.
+5E: Added Archive support for MagicItems and NPCs
+CoreRPG: Added Archive support for MagicItems and NPCs
+
+v0.0.5-b501
+5E classes: Fixed bug preventing classes with more than one ability from linking to correct sub features
+
+v0.0.5-b499
+5E equipment: Fixed incorrect speed and ac type output XML
+5E backgrounds: Broke out separate fields for equipment
+5E classes: Broke out ability features into separate linked records and listlinked into ability text.
+5E classes: Added separate number field 'level' to class features and abilities, level is auto populated based upon feature/ability text. If no level information is present, Level 1 is assumed.
+Engine: updated source-file foreign character detection which was causing some source file first line text to be skipped
+Engine: updated XMLTidy routines to include Windows platform interpretation of certain unicode character streams which differ on Mac OSX
+5E Docs: updated 5E equipment and class content guide.
+Docs: updated user guide with steps to launch software from command line, troubleshooting problems and enabling debug mode
+
+v0.0.5-b437
+5E backgrounds: Fixed trait names in output XML
+Engine: updated foreign character detection to strip U+FEFF unicode characters
+
+v0.0.5-b432
+5E equipment: Fixed armor AC detection and included equipment descriptions in output XML
+
+v0.0.5-b431
+5E equipment: Fixed equipment item output to campaign
+5E magicitems: Fixed magic item output to campaign
+5E docs: updated documentation for Equipment and Races
+5E classes: Added separate XML fields (backgrounds and equipment) to output
+5E backgrounds: Added separate XML field (equipment) to output
+
+v0.0.5-b423
+
+Engine: Initial alpha release of Java base port compiled to JDK 1.7
+Engine: Re-structured and designed tag markup language for faster and consistent application to raw text
+Engine: Added Support for CoreRPG v3.0.2+ ruleset
+Engine: Added Support for D&D 5E v3.0.2+ ruleset

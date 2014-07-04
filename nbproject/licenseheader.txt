@@ -1,0 +1,10 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}
+${licensePrefix}PAR5E Fantasy Grounds Ruleset Module Parser Tool
+${licensePrefix}Developed by Zeus. Copyright 2014
+${licensePrefix}
+<#if licenseLast??>
+${licenseLast}
+</#if>

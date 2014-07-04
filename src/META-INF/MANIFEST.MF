@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.9.1
+Created-By: 1.7.0_10-b18 (Oracle Corporation)
+Built-By: zeph
+Built-Date: 14.03.24
+Implementation-Vendor: Zeus
+Implementation-Title: PAR5E
+Implementation-Version: v0.0.6 (b7)
+Main-Class: par5e.PAR5E
+
